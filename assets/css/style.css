@@ -254,12 +254,14 @@ footer p {
     }
 
     footer{
-        position: fixed;
-        font-size: 13px;
-        max-height: 40px;
-        background-color: #061f24;
-        
+        opacity: 0;
     }
+
+    footer:hover{
+        opacity: 1;
+    }
+
+    
     
 }
 
