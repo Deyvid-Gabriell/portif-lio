@@ -253,8 +253,11 @@ footer p {
         text-align: center;
     }
 
-    .footer{
-        position: initial;
+    footer{
+        font-size: 13px;
+        max-height: 40px;
+        background-color: #061f24;
+        
     }
     
 }
