@@ -203,12 +203,30 @@ footer p {
         font-size: 40px;
     }
 
-    .buttons{
-        display: flex;
-
+    .about-me{
+        max-width: 340px;
+        max-height: 500px;
 
     }
 
+    .about-me p{
+        font-size: 14px;
+        
+    }
+
+    .about-me img{
+        height: 150px;
+        width: 200px;
+    }
+
+    .about-me .techs{
+        height: 50px;
+        width: 350px;
+    }
+
+    .buttons button{
+        padding: 10px 20px;
+    }
     
 
     .container .leftside{
@@ -233,6 +251,10 @@ footer p {
 
     .info{
         text-align: center;
+    }
+
+    .footer{
+        position: initial;
     }
     
 }
