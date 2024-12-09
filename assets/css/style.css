@@ -259,7 +259,11 @@ footer p {
         opacity: 1;
     }
 
-    html, body {
+    body{
+        background-color: #061f24;
+    }
+
+    html, body, .leftside {
         overflow-x: hidden; /* Impede rolagem horizontal */
         margin: 0; /* Remove margens que podem causar o deslocamento */
         padding: 0; /* Remove padding extra */
