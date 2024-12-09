@@ -235,13 +235,11 @@ footer p {
         justify-content: center;
         padding: 0px;
         padding-bottom: 40px;
-        width: 100%;
+        width: 100vw;
         
     }
 
-    .container .rightside{
-        padding: 30px;
-    }
+    
     
     
     .about-me{
@@ -259,6 +257,13 @@ footer p {
 
     footer:hover{
         opacity: 1;
+    }
+
+    html, body {
+        overflow-x: hidden; /* Impede rolagem horizontal */
+        margin: 0; /* Remove margens que podem causar o deslocamento */
+        padding: 0; /* Remove padding extra */
+        width: 100%; /* Garante que o body ocupe 100% da largura da tela */
     }
 
     
